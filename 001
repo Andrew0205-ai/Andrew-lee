@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>李星宏的筆記</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .spacer {
+            height: 40px; /* 調整這個值可以增加或減少空白的高度 */
+        }
+        .image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .src-description {
+            font-size: 14px;
+            color: #555;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>李星宏的筆記</h1>
+    </header>
+
+    <div class="container">
+        <div class="section">
+            <h2>關於我</h2>
+            <p>你好！我是李星宏，一名對環境和電腦科學有興趣的學生。這裡是我的筆記頁面。</p>
+            <p>我目前正在學習：</p>
+            <ul>
+                <li>烏克麗麗：希望能演奏出我喜歡的音樂。</li>
+                <li>鋼琴：掌握更多音樂技巧。</li>
+                <li>爵士鼓：提升我的節奏感。</li>
+            </ul>
+            <p>在學習的過程中，我發現音樂讓我能夠放鬆心情，也能夠激發創造力。</p>
+            <img src="https://i.imgur.com/bfejPwI.jpeg" alt="描述文字" class="image">
+            <div class="src-description">圖片來源：<code>src="https://i.imgur.com/bfejPwI.jpeg"</code></div>
+        </div>
+
+        <div class="section">
+            <h2>我的興趣</h2>
+            <ul>
+                <li>音樂：我喜歡學習不同的樂器和音樂風格。</li>
+                <li>閱讀：我經常閱讀《Geronimo Stilton》系列書籍。</li>
+                <li>項目：我正在製作一個用紙盒做的模型房子，這個過程非常有趣。</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>有趣的事實</h2>
+            <p>在我的學習和創作過程中，有一些有趣的小故事：</p>
+            <ul>
+                <li>我第一次嘗試製作紙盒模型時，遇到了一些挑戰，但最終完成後非常滿足。</li>
+                <li>在學習烏克麗麗的過程中，我發現自己對音樂有了更深刻的理解。</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>聯絡我</h2>
+            <p>你可以通過以下方式聯絡我：</p>
+            <ul>
+                <li>電子郵件：<a href="mailto:andrewwork03295@gmail.com">andrewwork03295@gmail.com</a></li>
+            </ul>
+            <div class="spacer"></div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 李星宏
+    </footer>
+</body>
+</html>
